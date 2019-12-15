@@ -849,7 +849,7 @@ xclip
 }
 
 .certificates img {
-    max-width: 55px;
+    max-width: 155px;
 }
 
 .certificates small {
@@ -1212,6 +1212,7 @@ xclip
 
 .message-box p {
     margin-bottom: 20px;
+	color: #000000
 }
 
 .message-box .lead {
@@ -1462,7 +1463,7 @@ hr.invis1 {
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background: rgba(51, 51, 51, 0.80);
+    background: transparent;
     color: #35424C;
     opacity: 0;
     -webkit-transition: all .5s;
@@ -1482,6 +1483,10 @@ hr.invis1 {
 	opacity: 1;
 	top: 50%;
 }
+
+
+
+
 
 
 .post-box .date{
@@ -2476,11 +2481,14 @@ select.mobile-device {
 .progressbar {
            background-color: #000000;
            border-radius: 19px;
-           width: 400px;
+		   width: 90%;
            height: 30px;
            /* (height of inner div) / 2 + padding */
            padding: 2px;
         }
+		
+	
+      
 /*
 .progressbar .twenty {
   background-color: #87ceeb;
@@ -2498,9 +2506,107 @@ select.mobile-device {
   border-radius: 10px;
 }
 
+.progressbar .fifty {
+  background-color: #87ceeb;
+  width: 50%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .sixty {
+  background-color: #87ceeb;
+  width: 60%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .seventy {
+  background-color: #87ceeb;
+  width: 70%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
 .progressbar .eighty {
   background-color: #87ceeb;
   width: 80%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .eightytwo {
+  background-color: #87ceeb;
+  width: 82%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .eightyfour {
+  background-color: #87ceeb;
+  width: 84%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .eightysix {
+  background-color: #87ceeb;
+  width: 86%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .eightyeight {
+  background-color: #87ceeb;
+  width: 88%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+
+
+.progressbar .ninety {
+  background-color: #87ceeb;
+  width: 90%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .ninetytwo {
+  background-color: #87ceeb;
+  width: 92%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .ninetyfour {
+  background-color: #87ceeb;
+  width: 94%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .ninetysix {
+  background-color: #87ceeb;
+  width: 96%;
+  /* Adjust with JavaScript */
+  height: 26px;
+  border-radius: 10px;
+}
+
+.progressbar .ninetyeight {
+  background-color: #87ceeb;
+  width: 98%;
   /* Adjust with JavaScript */
   height: 26px;
   border-radius: 10px;
@@ -2512,12 +2618,12 @@ select.mobile-device {
 }
 
 .skills-left{
-    width: 45%;
+    width: 49%;
     float: left;
 }
 
 .skills-right{
-    width: 45%;
+    width: 49%;
     float: right;
 }
 
@@ -2526,4 +2632,15 @@ select.mobile-device {
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+/* Mailye add garyeko */
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 95%;
+	
 }
